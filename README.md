@@ -1,4 +1,4 @@
-# ecrsidecar
+# Ecr Side Car
 
 Is a utility that gets a token for ecr. The token is refreshed in a defined time interval
 
