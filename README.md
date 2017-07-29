@@ -4,7 +4,7 @@ Is a utility that gets a token for ecr. The token is refreshed in a defined time
 
 # Why use
 
-If you are using kubernetes and ecr then you should have felt the limitation in using the ssasas credentials (expires after 12h). Ecr-side-car keeps your credentials always up-to-date.
+If you are using kubernetes and ecr then you should have felt the limitation in using the ecr credentials (expires after 12h). Ecr-side-car keeps your credentials always up-to-date.
 
 # Config file
 
