@@ -16,3 +16,9 @@ region: "eu-west-1"
 tokenFile: "ecr-registry.token"
 registryID: "00000000" # AWS ACCOUNT ID
 ```
+
+# RUN
+
+```shell
+docker run -v $(pwd)/tokens:/opt/tokens -v $(pwd)/config.yaml:/opt/config/ecrsidecar/config.yaml andrepinto/ecrsidecar
+```

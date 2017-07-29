@@ -28,7 +28,7 @@ type EcrData struct {
 
 func main() {
 
-	var file = flag.String("config", "config.yaml", "Ecr configuration file")
+	var file = flag.String("config", "/opt/config/ecrsidecar/config.yaml", "Ecr configuration file")
 
 	flag.Parse()
 

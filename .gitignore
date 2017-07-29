@@ -2,3 +2,5 @@ vendor
 ecr-registry.token
 config.yaml
 .idea/
+ecrsidecar
+tokens
